@@ -24,11 +24,11 @@ const ContactSection = () => {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
             <a
-              href="mailto:inamulh11111@gmail.com"
+              href="mailto:inamul.official22@gmail.com"
               className="flex items-center gap-3 glass rounded-lg px-6 py-4 hover:border-primary/40 transition-all duration-300 w-full sm:w-auto"
             >
               <Mail className="text-primary" size={20} />
-              <span className="text-sm">inamulh11111@gmail.com</span>
+              <span className="text-sm">inamul.official22@gmail.com</span>
             </a>
             <a
               href="https://www.linkedin.com/in/inaam1/"
