@@ -18,7 +18,7 @@ const experiences = [
     icon: Briefcase,
     role: "Technical Support & Software Lab Assistant / Graphic Designer",
     company: "ESOFT Metro Campus (Pvt) Ltd – Sri Lanka",
-    period: "Dec 2025 – Present",
+    period: "Dec 2025 – May 2026",
     points: [
       "Provide technical support for computer laboratories used for software engineering training.",
       "Install and configure programming tools and development environments.",
