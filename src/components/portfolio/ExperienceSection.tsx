@@ -1,8 +1,19 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Briefcase, Rocket } from "lucide-react";
+import { Briefcase, Rocket, Trophy } from "lucide-react";
 
 const experiences = [
+  {
+    icon: Trophy,
+    role: "AI Developer — Cursor Colombo 24H Buildathon",
+    company: "Team AI Spike",
+    period: "Jul 2026",
+    points: [
+      "Built an n8n automation workflow connecting multiple AI services through webhooks and APIs.",
+      "Integrated the Google Gemini API to gather advertising requirements and generate personalized marketing content.",
+      "Built an automated pipeline turning a product image into an ad script and AI-generated promotional video using Fal.ai.",
+    ],
+  },
   {
     icon: Briefcase,
     role: "Technical Support & Software Lab Assistant / Graphic Designer",

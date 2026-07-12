@@ -21,13 +21,16 @@ const AboutSection = () => {
           </h2>
           <div className="space-y-5 text-muted-foreground leading-relaxed text-base md:text-lg">
             <p>
-              Results-driven Full Stack Developer with hands-on experience building responsive web applications using modern technologies including React, Laravel, JavaScript, TypeScript, PHP, and Python.
+              Software developer passionate about building intelligent, practical web applications and automation solutions. Strong expertise in Python, JavaScript, React, and backend frameworks like Laravel and NestJS.
             </p>
             <p>
-              Experienced in developing full-stack applications, managing Git-based workflows, and maintaining code repositories on GitHub. Currently working in a technical software lab environment at ESOFT Metro Campus while developing scalable web solutions through personal projects and the ORIOEX startup initiative.
+              My work increasingly focuses on the intersection of AI and automation — building AI-powered workflows using tools like n8n and the Google Gemini API, and business process automations that solve real-world problems efficiently.
             </p>
             <p>
-              Passionate about building user-focused applications and continuously improving software development practices.
+              Currently developing ORIOEX, a startup building modern web-based software solutions for businesses, while deepening my skills in FastAPI, AI agents, Retrieval-Augmented Generation (RAG), Docker, and cloud deployment.
+            </p>
+            <p>
+              Open to opportunities as an AI Automation Engineer, Backend Developer, or Full-Stack Software Engineer.
             </p>
           </div>
         </motion.div>
