@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Activity, CheckCircle2, XCircle, ChevronDown, ChevronUp, Trash2 } from "lucide-react";
 
 type LogEntry = {
-  id: number;
+  id: string;
   type: "error" | "warn";
   message: string;
   source?: string;
@@ -36,7 +36,7 @@ const PreviewStatusPanel = () => {
       setErrors((prev) => [
         ...prev.slice(-49),
         {
-          id: counter,
+          id: `${Date.now()}-${counter}`,
           type,
           message,
           source,
