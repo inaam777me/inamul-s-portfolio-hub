@@ -18,7 +18,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <p className="text-primary font-display font-medium tracking-widest uppercase text-sm mb-4">
-            Full Stack Developer
+            Software Engineer
           </p>
           <h1 className="text-7xl md:text-8xl lg:text-9xl font-display font-bold leading-tight mb-8">
             Inamul{" "}

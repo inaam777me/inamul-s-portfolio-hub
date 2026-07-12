@@ -29,7 +29,7 @@ const experiences = [
   },
   {
     icon: Rocket,
-    role: "Founder / Full Stack Developer – ORIOEX",
+    role: "Founder / Software Engineer – ORIOEX",
     company: "Startup Web Application Project",
     period: "Ongoing",
     points: [
