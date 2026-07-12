@@ -1,12 +1,17 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Code, Globe, Database, Wrench, Palette, Users } from "lucide-react";
+import { Code, Globe, Database, Wrench, Palette, Users, Sparkles } from "lucide-react";
 
 const skillCategories = [
   {
     icon: Code,
     title: "Languages",
     skills: ["JavaScript", "TypeScript", "Python", "Java", "C#", "PHP"],
+  },
+  {
+    icon: Sparkles,
+    title: "AI & Automation",
+    skills: ["Google Gemini API", "n8n", "Webhooks", "RAG", "REST APIs", "FastAPI"],
   },
   {
     icon: Globe,
@@ -16,12 +21,12 @@ const skillCategories = [
   {
     icon: Database,
     title: "Frameworks & DB",
-    skills: ["React.js", "Laravel", "Vue.js", ".NET", "MySQL"],
+    skills: ["React.js", "Laravel", "NestJS", "Vue.js", "Prisma", "MySQL"],
   },
   {
     icon: Wrench,
     title: "Tools",
-    skills: ["Git", "GitHub", "VS Code", "Linux CLI"],
+    skills: ["Git", "GitHub", "VS Code", "Linux CLI", "Flutter", "Electron"],
   },
   {
     icon: Palette,
