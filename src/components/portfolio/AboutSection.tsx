@@ -14,12 +14,12 @@ const AboutSection = () => {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7 }}
         >
-          <p className="text-primary font-display text-sm tracking-widest uppercase mb-3">About Me</p>
-          <h2 className="text-3xl md:text-5xl font-display font-bold mb-8">
+          <p className="text-primary font-display text-sm tracking-widest uppercase mb-4">About Me</p>
+          <h2 className="text-4xl md:text-6xl font-display font-bold mb-10">
             Crafting digital{" "}
             <span className="text-gradient">experiences</span>
           </h2>
-          <div className="space-y-5 text-muted-foreground leading-relaxed text-base md:text-lg">
+          <div className="space-y-7 text-muted-foreground leading-relaxed text-lg md:text-xl">
             <p>
               Software developer passionate about building intelligent, practical web applications and automation solutions. Strong expertise in Python, JavaScript, React, and backend frameworks like Laravel and NestJS.
             </p>

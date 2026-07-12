@@ -14,39 +14,39 @@ const ContactSection = () => {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
         >
-          <p className="text-primary font-display text-sm tracking-widest uppercase mb-3">Contact</p>
-          <h2 className="text-3xl md:text-5xl font-display font-bold mb-6">
+          <p className="text-primary font-display text-sm tracking-widest uppercase mb-4">Contact</p>
+          <h2 className="text-4xl md:text-6xl font-display font-bold mb-8">
             Let's <span className="text-gradient">connect</span>
           </h2>
-          <p className="text-muted-foreground mb-10 text-lg">
+          <p className="text-muted-foreground mb-14 text-xl">
             I'm always open to new opportunities and collaborations. Feel free to reach out!
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-5 mb-14">
             <a
               href="mailto:inamul.official22@gmail.com"
-              className="flex items-center gap-3 glass rounded-lg px-6 py-4 hover:border-primary/40 transition-all duration-300 w-full sm:w-auto"
+              className="flex items-center gap-4 glass rounded-lg px-8 py-5 hover:border-primary/40 transition-all duration-300 w-full sm:w-auto"
             >
-              <Mail className="text-primary" size={20} />
-              <span className="text-sm">inamul.official22@gmail.com</span>
+              <Mail className="text-primary" size={24} />
+              <span className="text-base">inamul.official22@gmail.com</span>
             </a>
             <a
               href="https://www.linkedin.com/in/inaam1/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-3 glass rounded-lg px-6 py-4 hover:border-primary/40 transition-all duration-300 w-full sm:w-auto"
+              className="flex items-center gap-4 glass rounded-lg px-8 py-5 hover:border-primary/40 transition-all duration-300 w-full sm:w-auto"
             >
-              <Linkedin className="text-primary" size={20} />
-              <span className="text-sm">LinkedIn</span>
+              <Linkedin className="text-primary" size={24} />
+              <span className="text-base">LinkedIn</span>
             </a>
             <a
               href="https://github.com/inaam777me"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-3 glass rounded-lg px-6 py-4 hover:border-primary/40 transition-all duration-300 w-full sm:w-auto"
+              className="flex items-center gap-4 glass rounded-lg px-8 py-5 hover:border-primary/40 transition-all duration-300 w-full sm:w-auto"
             >
-              <Github className="text-primary" size={20} />
-              <span className="text-sm">GitHub</span>
+              <Github className="text-primary" size={24} />
+              <span className="text-base">GitHub</span>
             </a>
           </div>
 

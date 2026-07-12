@@ -50,24 +50,24 @@ const ProjectsSection = () => {
           transition={{ duration: 0.6 }}
           className="mb-14"
         >
-          <p className="text-primary font-display text-sm tracking-widest uppercase mb-3">Projects</p>
-          <h2 className="text-3xl md:text-5xl font-display font-bold">
+          <p className="text-primary font-display text-sm tracking-widest uppercase mb-4">Projects</p>
+          <h2 className="text-4xl md:text-6xl font-display font-bold">
             Featured <span className="text-gradient">work</span>
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project, i) => (
             <motion.div
               key={project.title}
               initial={{ opacity: 0, y: 30 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="glass rounded-lg p-6 hover:border-primary/30 hover:shadow-gold transition-all duration-500 group"
+              className="glass rounded-lg p-8 hover:border-primary/30 hover:shadow-gold transition-all duration-500 group"
             >
-              <div className="flex items-start justify-between mb-4">
-                <div className="p-3 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors">
-                  <project.icon className="text-primary" size={24} />
+              <div className="flex items-start justify-between mb-5">
+                <div className="p-4 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors">
+                  <project.icon className="text-primary" size={32} />
                 </div>
                 {project.link && (
                   <a
@@ -75,19 +75,19 @@ const ProjectsSection = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={`Open ${project.title} on GitHub`}
-                    className="p-2 rounded-lg text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"
+                    className="p-3 rounded-lg text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"
                   >
-                    <ExternalLink size={18} />
+                    <ExternalLink size={22} />
                   </a>
                 )}
               </div>
-              <h3 className="font-display font-semibold text-lg mb-2">{project.title}</h3>
-              <p className="text-muted-foreground text-sm mb-4 leading-relaxed">{project.description}</p>
-              <div className="flex flex-wrap gap-2">
+              <h3 className="font-display font-semibold text-xl mb-3">{project.title}</h3>
+              <p className="text-muted-foreground text-base mb-5 leading-relaxed">{project.description}</p>
+              <div className="flex flex-wrap gap-3">
                 {project.tech.map((t) => (
                   <span
                     key={t}
-                    className="text-xs px-2.5 py-1 rounded-full border border-border text-muted-foreground"
+                    className="text-sm px-3.5 py-1.5 rounded-full border border-border text-muted-foreground"
                   >
                     {t}
                   </span>

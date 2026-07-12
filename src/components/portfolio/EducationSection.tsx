@@ -44,8 +44,8 @@ const EducationSection = () => {
           transition={{ duration: 0.6 }}
           className="mb-14"
         >
-          <p className="text-primary font-display text-sm tracking-widest uppercase mb-3">Education</p>
-          <h2 className="text-3xl md:text-5xl font-display font-bold">
+          <p className="text-primary font-display text-sm tracking-widest uppercase mb-4">Education</p>
+          <h2 className="text-4xl md:text-6xl font-display font-bold">
             Academic <span className="text-gradient">background</span>
           </h2>
         </motion.div>

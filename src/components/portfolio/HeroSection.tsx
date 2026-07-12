@@ -20,11 +20,11 @@ const HeroSection = () => {
           <p className="text-primary font-display font-medium tracking-widest uppercase text-sm mb-4">
             Full Stack Developer
           </p>
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold leading-tight mb-6">
+          <h1 className="text-7xl md:text-8xl lg:text-9xl font-display font-bold leading-tight mb-8">
             Inamul{" "}
             <span className="text-gradient">Hasan</span>
           </h1>
-          <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light leading-relaxed">
+          <p className="text-muted-foreground text-xl md:text-2xl max-w-2xl mx-auto mb-12 font-light leading-relaxed">
             Building responsive, scalable web applications with React, Laravel & modern technologies from Batticaloa, Sri Lanka.
           </p>
         </motion.div>
